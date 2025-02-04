@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "motion/react";
 import { HERO_CONTENT } from "../../constants";
-import jason from "../../assets/jason-root.webp";
+import nk from "../../assets/nk.jpeg";
 
 function index() {
   const textVariants = {
@@ -75,10 +75,10 @@ function index() {
             variants={imageVariants}
           >
             <img
-              src={jason}
+              src={nk}
               alt="jason root"
-              width={650}
-              height={650}
+              width={400}
+              height={500}
               className="rounded-3xl"
             />
           </motion.div>

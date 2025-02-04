@@ -32,80 +32,77 @@ export const HERO_CONTENT = {
 
 export const PROJECTS = [
   {
-    name: "Streamerzz",
-    description: "Live stream management tool for content creators",
-    image: projects1,
-    link: "https://github.com/your-github/streamerzz",
-  },
-  {
-    name: "NutriTrack",
-    description: "Track your meals and calories with smart AI suggestions",
-    image: projects2,
-    link: "https://github.com/your-github/nutritrack",
-  },
-  {
-    name: "HairRevive",
-    description: "A platform for hair regrowth solutions powered by science",
-    image: projects3,
-    link: "https://github.com/your-github/hairrevive",
-  },
-  {
-    name: "DevDeck",
+    name: "Edemy",
     description:
-      "Interactive dashboard for developers to track coding activity",
-    image: projects4,
-    link: "https://github.com/your-github/devdeck",
-  },
-  {
-    name: "FitConnect",
-    description: "Fitness social network to connect athletes and trainers",
-    image: projects5,
-    link: "https://github.com/your-github/fitconnect",
-  },
-  {
-    name: "WellNest",
-    description: "A wellness app for mental and physical health improvement",
+      "Edemy is an online course platform with Framer Motion animations for an interactive learning experience",
     image: projects6,
-    link: "https://github.com/your-github/wellnest",
+    link: "https://github.com/naveenkumar13-gif/Edemy.git",
+  },
+  {
+    name: "Food-Hut",
+    description:
+      "Food-Hut is a food ordering app with filters, animations, and a seamless user experience  ordering, and delivery.",
+    image: projects5,
+    link: "https://github.com/naveenkumar13-gif/Food-hut.git",
+  },
+  {
+    name: "Pizza-Hut",
+    description:
+      "Pizza Hut's app enables easy ordering, customization, delivery, and deals for the lovely customer",
+    image: projects3,
+    link: "https://github.com/naveenkumar13-gif/pizza-Hut.git",
+  },
+  {
+    name: "Amazon-2.0",
+    description:
+      "Amazon-2.0 is a demo version of Amazon, replicating its core features like product listings, shopping carts, checkout.",
+    image: projects4,
+    link: "https://github.com/naveenkumar13-gif/amazon-2.0.git",
+  },
+  {
+    name: "Realestate",
+    description:
+      "Real estate apps facilitate property listings, searches, virtual tours, agent interactions, and transactions.",
+    image: projects2,
+    link: "https://github.com/naveenkumar13-gif/Realestate.git",
+  },
+  {
+    name: "Omi-food",
+    description:
+      "The Landing page of Omi-Food apps streamline food ordering, delivery, restaurant listings, and customer interactions.",
+    image: projects1,
+    link: "https://github.com/naveenkumar13-gif/omi-food.git",
   },
 ];
 
 export const ABOUT_CONTENT = {
   paragraphs: [
     "I am a dedicated frontend developer with a passion for building modern web applications that are both functional and aesthetically pleasing. Over the years, I have worked on numerous projects ranging from single-page applications to complex multi-tiered systems, always ensuring high performance and seamless user experiences.",
-    "I specialize in using technologies like React, Next.js, and Tailwind CSS to create responsive and scalable interfaces. My focus is on writing clean, maintainable code while collaborating with cross-functional teams to deliver projects that meet both business goals and user needs. I thrive in environments that challenge me to continuously learn and grow.",
+    "I specialize in using technologies like React and Tailwind CSS to create responsive and scalable interfaces. My focus is on writing clean, maintainable code while collaborating with cross-functional teams to deliver projects that meet both business goals and user needs. I thrive in environments that challenge me to continuously learn and grow.",
   ],
 };
 
 export const EXPERIENCES = [
   {
-    yearRange: "2023 — Now",
+    yearRange: "2024 — Now",
     title: "Senior Frontend Engineer at TechCorp",
-    location: "Paris, France",
-    description: [
-      "Leading the development of scalable frontend architecture for enterprise-level applications.",
-      "Collaborating with cross-functional teams to deliver high-quality, user-centric solutions.",
-      "Driving innovation through continuous improvements in performance and UI/UX design.",
-    ],
-  },
-  {
-    yearRange: "2021 — 2023",
-    title: "Frontend Engineer at Startup Inc.",
     location: "Remote",
     description: [
-      "Built dynamic, responsive, and accessible web applications using React, Next.js, and Tailwind CSS.",
-      "Spearheaded frontend optimization efforts, resulting in a 40% performance boost.",
-      "Mentored junior developers and led internal frontend workshops.",
+      "Developed and launched applications like Edemy, Food-Hut, and Pizza-Hut with smooth animations.",
+      "Focused on building interactive and user-friendly interfaces using React and Framer Motion.",
+      "Collaborated with senior developers to enhance UI/UX and optimize web performance.",
+      "Continuously learning and implementing best practices for scalable frontend development.",
     ],
   },
   {
-    yearRange: "2018 — 2021",
+    yearRange: "2023 — 2024",
     title: "Frontend Developer at Creative Solutions",
-    location: "London, UK",
+    location: "Remote",
     description: [
-      "Developed and maintained user interfaces for high-traffic websites.",
-      "Worked closely with designers to implement pixel-perfect designs.",
-      "Optimized websites for SEO and performance, resulting in a 30% increase in traffic.",
+      "Started as a student, gaining hands-on experience in frontend development.",
+      "Built and deployed projects like Omi-Food, RealEstate, and Amazon-2.0.",
+      "Developed interactive and responsive UIs using React and Tailwind CSS.",
+      "Enhanced web performance and user experience through optimized design and animations.",
     ],
   },
 ];
@@ -159,26 +156,20 @@ export const CONTACT_CONTENT = {
   headline: "LET'S WORK ON SOMETHING GREAT",
   description:
     "I'm excited to collaborate on projects that push boundaries and create meaningful impact. Let's build something innovative and exceptional together.",
-  email: "jason@example.com",
+  email: "naveenkumarofficial1316@gmail.com",
   socialLinks: [
     {
-      platform: "Twitter",
-      url: "https://twitter.com/yourprofile",
-      ariaLabel: "Follow me on Twitter",
-      icon: "RiTwitterXFill",
-    },
-    {
       platform: "GitHub",
-      url: "https://github.com/yourprofile",
+      url: "https://github.com/naveenkumar13-gif",
       ariaLabel: "View my GitHub profile",
       icon: "RiGithubFill",
     },
     {
       platform: "LinkedIn",
-      url: "https://linkedin.com/in/yourprofile",
+      url: "linkedin.com/in/naveen-kumar-6776b4331",
       ariaLabel: "Connect with me on LinkedIn",
       icon: "RiLinkedinFill",
     },
   ],
-  footerText: `© ${new Date().getFullYear()} Jason Root. All rights reserved.`,
+  footerText: `© ${new Date().getFullYear()} NaveenKumar. All rights reserved.`,
 };

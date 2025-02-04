@@ -29,11 +29,14 @@ function index() {
   };
   return (
     <div>
-      <section className="min-h-screen flex flex-col justify-center px-10 max-md:px-4">
-        <h1 className="text-6xl max-md:text-4xl  font-medium mb-10">COntact</h1>
+      <section
+        className="min-h-screen flex flex-col justify-center px-10 max-md:px-4"
+        id="contact"
+      >
+        <h1 className="text-6xl max-md:text-4xl  font-medium mb-10">Contact</h1>
         <div className="h-1 w-20 bg-white"></div>
         <motion.h3
-          className="text-8xl max-md:text-6xl leading-none"
+          className="text-8xl max-md:text-6xl leading-none max-sm:text-5xl"
           initial="hidden"
           whileInView="visible"
           custom={0.4}
@@ -55,7 +58,7 @@ function index() {
           whileInView="visible"
           custom={0.6}
           variants={textVariants}
-          className="text-3xl max-md:text-2xl font-medium mt-8"
+          className="text-3xl max-md:text-2xl font-medium mt-8 max-sm:text-lg"
         >
           {CONTACT_CONTENT.email}
         </motion.a>

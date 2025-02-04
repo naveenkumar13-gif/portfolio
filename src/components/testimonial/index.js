@@ -18,7 +18,7 @@ function index() {
   };
   return (
     <div>
-      <section className="px-6 py-10" id="#testimonials">
+      <section className="px-6 py-10" id="testimonials">
         <h1 className="text-6xl max-md:text-4xl font-medium mb-10">
           What People Are Saying
         </h1>
