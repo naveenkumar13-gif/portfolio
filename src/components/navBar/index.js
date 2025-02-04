@@ -46,7 +46,11 @@ function NavBar() {
               onClick={() => setMenuOpen(!menuOpen)}
               className="text-white focus:outline-none"
             >
-              {menuOpen ? "Close Menu" : "Open Menu"}
+              {menuOpen ? (
+                <ion-icon name="close-outline" className="font"></ion-icon>
+              ) : (
+                <ion-icon name="menu-outline" className="font"></ion-icon>
+              )}
             </button>
           </li>
         </ul>

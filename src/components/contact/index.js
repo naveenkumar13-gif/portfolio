@@ -65,12 +65,10 @@ function index() {
         <div className="flex space-x-6 mt-6">
           {CONTACT_CONTENT.socialLinks.map((link, index) => {
             const Icon =
-              link.icon === "RiTwitterXFill" ? (
-                <ion-icon name="logo-twitter"></ion-icon>
-              ) : link.icon === "RiGithubFill" ? (
-                <ion-icon name="logo-github"></ion-icon>
+              link.icon === "RiGithubFill" ? (
+                <ion-icon name="logo-github" className="font"></ion-icon>
               ) : (
-                <ion-icon name="logo-linkedin"></ion-icon>
+                <ion-icon name="logo-linkedin" className="font"></ion-icon>
               );
             return (
               <motion.a
