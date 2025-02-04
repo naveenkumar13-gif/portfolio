@@ -13,7 +13,7 @@ function App() {
     <div>
       <BlurBackGround />
       <NavBar />
-      <main className="overflow-x-hidden max-w-7xl mx-auto relative z-10 antialiased">
+      <main className="overflow-hidden max-w-7xl mx-auto relative z-10 antialiased">
         <NavBar />
         <Hero />
         <Project />
