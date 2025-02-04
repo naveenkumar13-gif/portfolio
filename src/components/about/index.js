@@ -1,5 +1,5 @@
 import React from "react";
-import { ABOUT_CONTENT } from "../../constants";
+import { ABOUT_CONTENT } from "../../data";
 import { motion } from "motion/react";
 
 function index() {

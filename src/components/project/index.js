@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
-import { PROJECTS } from "../../constants";
+import { PROJECTS } from "../../data";
 import { delay } from "motion";
 
 function index() {

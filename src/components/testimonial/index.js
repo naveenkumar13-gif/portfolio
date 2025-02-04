@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
-import { TESTIMONIALS } from "../../constants";
+import { TESTIMONIALS } from "../../data";
 
 function index() {
   const childVariants = {

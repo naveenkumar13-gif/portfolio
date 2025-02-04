@@ -23,7 +23,7 @@ export const LINKS = [
 export const HERO_CONTENT = {
   greeting: "Hey there! 🖐️",
   introduction:
-    "I’m Jason Root, a creative frontend developer, crafting immersive and intuitive web experiences.",
+    "I’m Naveenkumar, a creative frontend developer, crafting immersive and intuitive web experiences.",
   description:
     "I’m currently helping businesses bring their visions to life through interactive digital solutions.",
   resumeLinkText: "Download Resume",

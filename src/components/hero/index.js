@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
-import { HERO_CONTENT } from "../../constants";
+import { HERO_CONTENT } from "../../data";
 import nk from "../../assets/nk.jpeg";
 
 function index() {

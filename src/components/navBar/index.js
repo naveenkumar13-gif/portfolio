@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { LINKS } from "../../constants";
+import { LINKS } from "../../data";
 import { motion } from "motion/react";
 
 function NavBar() {

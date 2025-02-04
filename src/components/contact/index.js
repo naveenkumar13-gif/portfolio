@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
-import { CONTACT_CONTENT } from "../../constants";
+import { CONTACT_CONTENT } from "../../data";
 function index() {
   const textVariants = {
     hidden: { opacity: 0, y: 20 },

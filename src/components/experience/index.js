@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
-import { EXPERIENCES } from "../../constants";
+import { EXPERIENCES } from "../../data";
 
 function index() {
   const containerVariants = {
