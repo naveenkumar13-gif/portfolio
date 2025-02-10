@@ -76,7 +76,7 @@ function index() {
           >
             <img
               src={nk}
-              alt="jason root"
+              alt="Naveen"
               width={400}
               height={500}
               className="rounded-3xl"
