@@ -53,11 +53,11 @@ export const PROJECTS = [
     link: "https://github.com/naveenkumar13-gif/pizza-Hut.git",
   },
   {
-    name: "Amazon-2.0",
+    name: "AI ResumePro",
     description:
-      "Amazon-2.0 is a demo version of Amazon, replicating its core features like product listings, shopping carts, checkout.",
+      "AI ResumePro that uses AI to analyze resumes and conduct mock interviews, to improve skills.",
     image: projects4,
-    link: "https://github.com/naveenkumar13-gif/amazon-2.0.git",
+    link: "https://github.com/naveenkumar-dev13/airesumepro.git",
   },
   {
     name: "Realestate",
