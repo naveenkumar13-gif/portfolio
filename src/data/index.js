@@ -13,10 +13,9 @@ import person5 from "../assets/person5.webp";
 import person6 from "../assets/person6.webp";
 
 export const LINKS = [
-  { href: "#work", label: "Work" },
   { href: "#about", label: "About" },
   { href: "#experience", label: "Experience" },
-  { href: "#testimonials", label: "Testimonials" },
+  { href: "#work", label: "Work" },
   { href: "#contact", label: "Contact" },
 ];
 
@@ -57,7 +56,7 @@ export const PROJECTS = [
     description:
       "AI ResumePro that uses AI to analyze resumes and conduct mock interviews, to improve skills.",
     image: projects4,
-    link: "https://github.com/naveenkumar-dev13/airesumepro.git",
+    link: "https://resume-ai-livid.vercel.app/",
   },
   {
     name: "Realestate",

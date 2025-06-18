@@ -16,10 +16,10 @@ function App() {
       <main className="overflow-hidden max-w-7xl mx-auto relative z-10 antialiased">
         <NavBar />
         <Hero />
-        <Project />
         <About />
         <Experiences />
-        <Testimonials />
+        <Project />
+        {/* <Testimonials /> */}
         <Contact />
       </main>
     </div>
