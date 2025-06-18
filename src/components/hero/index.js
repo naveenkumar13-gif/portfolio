@@ -33,7 +33,7 @@ function index() {
   return (
     <div>
       <section>
-        <div className="relative z-10 min-h-screen flex flex-wrap  items-center justify-center text-white">
+        <div className="relative z-10 min-h-screen flex flex-wrap  items-center justify-center text-white" id="home">
           <motion.div
             className="w-1/2 max-md:w-full p-8 max-sm:p-4"
             initial="hidden"

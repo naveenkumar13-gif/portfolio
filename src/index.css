@@ -16,7 +16,7 @@
   scroll-behavior: smooth;
   font-optical-sizing: auto;
 }
-#work #about #experience #testinonial #contact {
+section[id] {
   scroll-margin-top: 80px;
 }
 
