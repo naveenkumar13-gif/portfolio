@@ -32,46 +32,51 @@ export const HERO_CONTENT = {
 
 export const PROJECTS = [
   {
+    name: "AI ResumePro",
+    description:
+      "AI ResumePro that uses AI to analyze resumes and conduct mock interviews, to improve skills.",
+    image: projects4,
+    git: "https://github.com/naveenkumar13-gif/ai-resume",
+    link: "https://ai-resume-blond-eight.vercel.app/",
+  },
+  {
     name: "Edemy",
     description:
       "Edemy is an online course platform with Framer Motion animations for an interactive learning experience",
     image: projects6,
-    link: "https://github.com/naveenkumar13-gif/Edemy.git",
+    git: "https://github.com/naveenkumar13-gif/Edemy.git",
+    link: "https://edemy-sepia.vercel.app/",
   },
   {
     name: "Food-Hut",
     description:
       "Food-Hut is a food ordering app with filters, animations, and a seamless user experience  ordering, and delivery.",
     image: projects5,
-    link: "https://github.com/naveenkumar13-gif/Food-hut.git",
+    git: "https://github.com/naveenkumar13-gif/Food-hut.git",
+    link: "https://food-hut-sandy.vercel.app/",
   },
   {
     name: "Pizza-Hut",
     description:
       "Pizza Hut's app enables easy ordering, customization, delivery, and deals for the lovely customer",
     image: projects3,
-    link: "https://github.com/naveenkumar13-gif/pizza-Hut.git",
+    git: "https://github.com/naveenkumar13-gif/pizza-Hut.git",
+    link: "https://pizza-hut-smoky.vercel.app/",
   },
-  {
-    name: "AI ResumePro",
-    description:
-      "AI ResumePro that uses AI to analyze resumes and conduct mock interviews, to improve skills.",
-    image: projects4,
-    link: "https://resume-ai-livid.vercel.app/",
-  },
+
   {
     name: "Realestate",
     description:
       "Real estate apps facilitate property listings, searches, virtual tours, agent interactions, and transactions.",
     image: projects2,
-    link: "https://github.com/naveenkumar13-gif/Realestate.git",
+    git: "https://github.com/naveenkumar13-gif/Realestate.git",
   },
   {
     name: "Omi-food",
     description:
       "The Landing page of Omi-Food apps streamline food ordering, delivery, restaurant listings, and customer interactions.",
     image: projects1,
-    link: "https://github.com/naveenkumar13-gif/omi-food.git",
+    git: "https://github.com/naveenkumar13-gif/omi-food.git",
   },
 ];
 
@@ -84,8 +89,19 @@ export const ABOUT_CONTENT = {
 
 export const EXPERIENCES = [
   {
-    yearRange: "2024 — Now",
-    title: "Senior Frontend Engineer at TechCorp",
+    yearRange: "2025 — Now",
+    title: "Frontend Developer Intern at Mindful AI",
+    location: "Remote",
+    description: [
+      "Developed AI ResumePro, a resume analyzer and mock interview tool powered by AI.",
+      "Built interactive and responsive frontend features using React.js and Tailwind CSS.",
+      "In parallel, developing a personal e-commerce project named Forever, featuring product  cart,  and payment system using React, Redux, and backend APIs.",
+      "Practicing real-world application architecture  through the Forever app.",
+    ],
+  },
+  {
+    yearRange: "2024 — 2025",
+    title: "Frontend Developer – Real-Time Projects ",
     location: "Remote",
     description: [
       "Developed and launched applications like Edemy, Food-Hut, and Pizza-Hut with smooth animations.",
@@ -100,7 +116,7 @@ export const EXPERIENCES = [
     location: "Remote",
     description: [
       "Started as a student, gaining hands-on experience in frontend development.",
-      "Built and deployed projects like Omi-Food, RealEstate, and Amazon-2.0.",
+      "Built and deployed projects like Omi-Food, RealEstate, and Pizza-Hut.",
       "Developed interactive and responsive UIs using React and Tailwind CSS.",
       "Enhanced web performance and user experience through optimized design and animations.",
     ],

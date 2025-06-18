@@ -48,14 +48,26 @@ function index() {
               <h2 className="text-2xl font-medium mb-4">{project.name}</h2>
               <div className="flex flex-col justify-between">
                 <p className="mb-4 flex-grow text-2xl">{project.description}</p>
-                <a
-                  href={project.link}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="bg-white text-stone-900 rounded-full py-2 px-2 w-32 hover:bg-gray-100 text-center text-sm"
-                >
-                  View on GitHub
-                </a>
+                <div>
+                  <a
+                    href={project.git}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="bg-white text-stone-900 rounded-full py-2 px-2 w-32 hover:bg-gray-100 text-center text-sm"
+                  >
+                    GitHub
+                  </a>
+                  {project.link && (
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="bg-white text-stone-900 rounded-full py-2 px-2 w-32 hover:bg-gray-100 text-center text-sm ml-4"
+                    >
+                      view live
+                    </a>
+                  )}
+                </div>
               </div>
             </div>
           </motion.div>

@@ -5,7 +5,6 @@ import Hero from "./components/hero/index";
 import Project from "./components/project/index";
 import About from "./components/about/index";
 import Experiences from "./components/experience/index";
-import Testimonials from "./components/testimonial/index";
 import Contact from "./components/contact/index";
 
 function App() {
