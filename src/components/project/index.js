@@ -8,7 +8,7 @@ function index() {
     hidden: {
       opacity: 0,
       scale: 0.8,
-      rotate: -40,
+      rotate: -30,
       y: 50,
     },
     visible: {
@@ -53,7 +53,7 @@ function index() {
                     href={project.git}
                     target="_blank"
                     rel="noreferrer"
-                    className="bg-white text-stone-900 rounded-full py-2 px-2 w-32 hover:bg-gray-100 text-center text-sm"
+                    className="bg-white text-stone-900 rounded-full py-2 px-2 w-32 hover:bg-gray-300 text-center text-sm transition-colors duration-300 ease-in-out"
                   >
                     GitHub
                   </a>
@@ -62,9 +62,9 @@ function index() {
                       href={project.link}
                       target="_blank"
                       rel="noreferrer"
-                      className="bg-white text-stone-900 rounded-full py-2 px-2 w-32 hover:bg-gray-100 text-center text-sm ml-4"
+                      className="bg-white text-stone-900 rounded-full py-2 px-4 w-36 hover:bg-gray-300 text-center text-sm ml-4 transition-colors duration-300 ease-in-out"
                     >
-                      view live
+                      live
                     </a>
                   )}
                 </div>

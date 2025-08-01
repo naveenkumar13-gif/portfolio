@@ -74,7 +74,7 @@ export const PROJECTS = [
     link: "https://forever-zeta-sooty.vercel.app/",
   },
   {
-    name: "Omi-food",
+    name: "Omi-Food",
     description:
       "The Landing page of Omi-Food apps streamline food ordering, delivery, restaurant listings, and customer interactions.",
     image: projects1,
