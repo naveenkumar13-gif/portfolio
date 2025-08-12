@@ -16,6 +16,7 @@ import { link } from "motion/react-client";
 export const LINKS = [
   { href: "#home", label: "Home" },
   { href: "#about", label: "About" },
+  { href: "#skills", label: "Skills" },
   { href: "#experience", label: "Experience" },
   { href: "#work", label: "Work" },
   { href: "#contact", label: "Contact" },
@@ -24,9 +25,9 @@ export const LINKS = [
 export const HERO_CONTENT = {
   greeting: "Hello!",
   introduction:
-    "I'm Naveenkumar, a frontend developer passionate about continuous learning and growth.",
+    "I'm Naveenkumar, a frontend developer passionate about learning and growth.",
   description:
-    "I seek to work in organizations that provide ample opportunities to enhance my skills and knowledge while contributing to their growth and success.",
+    "I want to work in organizations that help me grow my skills while I contribute to their success.",
   resumeLinkText: "View Resume",
   resumeLink: "/resume.pdf",
 };
@@ -95,6 +96,7 @@ export const ABOUT_CONTENT = {
     "Responsive Design",
     "React JS",
     "Next JS",
+    "Redux",
     "Zustand",
     "Tailwind CSS",
     "GitHub",
@@ -107,10 +109,11 @@ export const EXPERIENCES = [
     title: "Frontend Developer Intern at Mindful AI",
     location: "Remote",
     description: [
-      "Developed AI ResumePro, a resume analyzer and mock interview tool powered by AI.",
+      "Developed AI ResumePro, a resume analyzer and mock interview tool powered by AI (completed).",
       "Built interactive and responsive frontend features using React.js and Tailwind CSS.",
-      "In parallel, developing a personal e-commerce project named Forever, featuring product  cart,  and payment system using React, Redux, and backend APIs.",
-      "Practicing real-world application architecture  through the Forever app.",
+      "Completed Forever, a personal e-commerce project with product listing, cart, and payment system using React, Redux, and backend APIs.",
+      "Currently developing a POS (Point of Sale) system with advanced product management and billing features.",
+      "Gaining hands-on experience in real-world application architecture through these projects.",
     ],
   },
   {
