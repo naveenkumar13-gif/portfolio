@@ -22,12 +22,12 @@ export const LINKS = [
 ];
 
 export const HERO_CONTENT = {
-  greeting: "Hey there! 🖐️",
+  greeting: "Hello!",
   introduction:
-    "I’m Naveenkumar, a creative frontend developer, crafting immersive and intuitive web experiences.",
+    "I'm Naveenkumar, a frontend developer passionate about continuous learning and growth.",
   description:
-    "I’m currently helping businesses bring their visions to life through interactive digital solutions.",
-  resumeLinkText: "Download Resume",
+    "I seek to work in organizations that provide ample opportunities to enhance my skills and knowledge while contributing to their growth and success.",
+  resumeLinkText: "View Resume",
   resumeLink: "/resume.pdf",
 };
 
@@ -84,8 +84,20 @@ export const PROJECTS = [
 
 export const ABOUT_CONTENT = {
   paragraphs: [
-    "I am a dedicated frontend developer with a passion for building modern web applications that are both functional and aesthetically pleasing. Over the years, I have worked on numerous projects ranging from single-page applications to complex multi-tiered systems, always ensuring high performance and seamless user experiences.",
-    "I specialize in using technologies like React and Tailwind CSS to create responsive and scalable interfaces. My focus is on writing clean, maintainable code while collaborating with cross-functional teams to deliver projects that meet both business goals and user needs. I thrive in environments that challenge me to continuously learn and grow.",
+    "I’m a frontend developer focused on building modern, performant web applications with clean code and intuitive design. My experience ranges from SPAs to complex systems, always prioritizing user experience and scalability.",
+    "I specialize in React, Next.js, and Tailwind CSS to develop responsive interfaces. Collaborating with cross-functional teams, I bridge technical execution with business goals to deliver impactful digital solutions.",
+  ],
+  skills: [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "Responsive Design",
+    "React JS",
+    "Next JS",
+    "Zustand",
+    "Tailwind CSS",
+    "GitHub",
   ],
 };
 
